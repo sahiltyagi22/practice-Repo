@@ -1,2 +1,7 @@
-const name = "sahil"
-const sirname = "tyagi"
+const firstName = "sahil"
+const lastName = "tyagi"
+
+function callName(firstName , lastName){
+    console.log(`my name is  ${firstName, lastName}`);
+}
+callName()
